@@ -35,6 +35,9 @@ export default function AppNavbar() {
             <LinkContainer to="/contact">
               <Nav.Link onClick={() => setExpanded(false)}>Contact</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/gallery">
+              <Nav.Link onClick={() => setExpanded(false)}>Gallery</Nav.Link> {/* Added Gallery navigation link */}
+            </LinkContainer>
             <LinkContainer to="/noteshq">                 
               <Nav.Link onClick={() => setExpanded(false)}>Notes HQ</Nav.Link>
             </LinkContainer>                                
