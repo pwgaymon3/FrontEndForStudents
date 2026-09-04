@@ -86,3 +86,6 @@ find ways to hire me, follow me and stay in touch with me.
 1. [stackoverflow](https://stackoverflow.com/users/5338888/jay)
 1. [Jay's Coding Channel on YouTube](https://www.youtube.com/channel/UCJJVulg4J7POMdX0veuacXw/)
 1. [medium blog](https://medium.com/@vijayasimhabr)
+
+Updated Prisma from v5 to v7 and caused some issues with the migration. If you encounter issues, please check the Prisma documentation for the latest migration commands and updates. 
+Solution: Revert to Prisma v5 to correct the migration issues.
