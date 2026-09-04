@@ -37,6 +37,9 @@ export default function AppNavbar() {
             <LinkContainer to="/contact">
               <Nav.Link onClick={close}>Contact</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/gallery">
+            <Nav.Link onClick={close}>Gallery</Nav.Link>
+            </LinkContainer>
             <LinkContainer to="/noteshq">
               <Nav.Link onClick={close}>Notes HQ</Nav.Link>
             </LinkContainer>

@@ -5,6 +5,7 @@ import AppNavbar from './components/AppNavbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 
 //Notes related imports
@@ -36,6 +37,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path='/gallery' element={<Gallery />} />
             <Route path="*" element={<Navigate to="/" replace />} />
             <Route path="/noteshq" element={<NotesHQ />} />
             <Route path="/login" element={<LoginPage />} />
